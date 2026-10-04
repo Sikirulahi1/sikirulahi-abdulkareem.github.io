@@ -1,5 +1,5 @@
 import { HeroContainer } from "../../assets/styles"
-import profile from "../../assets/img/prof_pic4.png"
+import profile from "../../assets/img/prof_pic4.webp"
 
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="hero-image">
-          <img src={profile} alt="Profile" />
+          <img src={profile} alt="Profile" fetchPriority="high" loading="eager" />
         </div>
       </div>
     </HeroContainer>
