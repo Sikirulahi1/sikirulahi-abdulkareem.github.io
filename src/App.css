@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cambria', 'Georgia', serif;
+}
+
+body {
+  font-family: 'Cambria', 'Georgia', serif;
+}
+
+:root {
+  /* Add your color variables here */
+  --primary-color: #2a4465;
+  --secondary-color: #0054C2;
+  /* --danger-color: #dc3545;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40; */
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
