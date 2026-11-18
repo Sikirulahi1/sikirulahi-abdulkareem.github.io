@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
 
           <p>
-            My research lies at the intersection of Artificial Intelligence and Robotics. I work on robust perception for robots, helping them see reliably when objects are partly hidden, using cameras instead of expensive sensors, and on efficient AI that runs on resource-constrained hardware. I am especially interested in perception systems that work in low-resource settings, and in how they can support reliable robot navigation and decision-making.
+            My research lies at the intersection of Artificial Intelligence and Robotics. I am interested in robust perception, helping robots understand their surroundings reliably in real-world conditions, and in efficient AI that can run on resource-constrained hardware. More broadly, I am interested in how perception, learning, and decision-making come together to build capable and reliable robotic systems.
           </p>
         </div>
         <div className="hero-image">

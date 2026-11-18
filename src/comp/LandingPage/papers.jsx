@@ -45,13 +45,15 @@ const papers = [
       }
     ]
   },
-  {
-    id: 4,
-    title: "Prediction of Car Prices in Nigeria Using Machine Learning Models",
-    authors: "S. O. Owoeye, F. O. Durodola, S. O. Abdulkareem, K. M. Makinde, & O. E. Folaranmi",
-    venue: "Journal of Engineering Research (JER), Vol. 30, No. 3, pp. 115–131, 2025",
-    year: "2025"
-  },
+  // Car prices paper: hidden for now (journal site not loading). Matches the CV; restore both together.
+  // {
+  //   id: 4,
+  //   title: "Prediction of Car Prices in Nigeria Using Machine Learning Models",
+  //   authors: "S. O. Owoeye, F. O. Durodola, S. O. Abdulkareem, K. M. Makinde, & O. E. Folaranmi",
+  //   venue: "Journal of Engineering Research (JER), Vol. 30, No. 3, pp. 115–131, 2025",
+  //   year: "2025",
+  //   links: [{ text: "Paper", url: "https://jer.unilag.edu.ng/article/view/2884" }]
+  // },
   {
     id: 5,
     title: "Multi-Lingual Contextual Audio Transcription and Translation to Selected Native Languages",
