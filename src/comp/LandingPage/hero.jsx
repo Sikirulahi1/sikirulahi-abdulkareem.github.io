@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-text">
           <div className="social-links">
             <a href="mailto:kareemsikiru2018@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a href="https://drive.google.com/file/d/1bPFCDbsFkXncn2M43aJ2a4QdwFO8vCMA/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="https://drive.google.com/file/d/1m6XCverIWFkY4dIRTpDn2aVxV-Ll1YPW/view" target="_blank" rel="noopener noreferrer">CV</a>
             <a href="https://github.com/Sikirulahi1" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/abdulkareem-sikirulahi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://medium.com/@sikirulahi" target="_blank" rel="noopener noreferrer">Medium</a>
