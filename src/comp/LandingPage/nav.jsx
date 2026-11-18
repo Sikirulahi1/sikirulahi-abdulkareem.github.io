@@ -88,7 +88,6 @@ const Nav = () => {
             News
           </Link>
 
-          
           <Link
             to="/blog"
             className={location.pathname === '/blog' ? 'active' : ''}

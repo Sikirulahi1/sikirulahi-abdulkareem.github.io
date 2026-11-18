@@ -130,6 +130,34 @@ export const NewsSection = styled.section`
     color: #000;
   }
 
+  .year-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .year-tab {
+    padding: 0.4rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: rgb(204, 51, 0);
+    background: transparent;
+    border: 1px solid rgb(204, 51, 0);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      background: rgba(204, 51, 0, 0.08);
+    }
+
+    &.active {
+      background: rgb(204, 51, 0);
+      color: #fff;
+    }
+  }
+
   .news-item {
     margin-bottom: 1.5rem;
     line-height: 1.6;

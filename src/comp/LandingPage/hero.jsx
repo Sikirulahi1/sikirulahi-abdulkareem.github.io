@@ -16,11 +16,11 @@ const Hero = () => {
           </div>
 
           <p>
-            I am Sikirulahi Abdulkareem, a First Class graduate in Mechatronics Engineering from the <a href="https://funaab.edu.ng/" target="_blank" rel="noopener noreferrer">Federal University of Agriculture, Abeokuta</a>, Nigeria. I am currently a Research Intern at <a href="https://funaab.edu.ng/" target="_blank" rel="noopener noreferrer">FUNAAB</a>, supervised by <a href="https://funaab.edu.ng/staff/owoeye-samuel-oluyemi/" target="_blank" rel="noopener noreferrer">Dr. S.O. Owoeye</a> and <a href="https://funaab.edu.ng/staff/durodola-folasade-olayinka/" target="_blank" rel="noopener noreferrer">Dr. Durodola</a>, and an Independent Researcher at <a href="https://mlcollective.org/" target="_blank" rel="noopener noreferrer">ML Collective</a>.
+            I am Sikirulahi Abdulkareem, a First Class graduate in Mechatronics Engineering from the <a href="https://funaab.edu.ng/" target="_blank" rel="noopener noreferrer">Federal University of Agriculture, Abeokuta</a> (FUNAAB), Nigeria. I am a Research Assistant at FUNAAB, supervised by <a href="https://funaab.edu.ng/staff/owoeye-samuel-oluyemi/" target="_blank" rel="noopener noreferrer">Dr. S. O. Owoeye</a> and <a href="https://funaab.edu.ng/staff/durodola-folasade-olayinka/" target="_blank" rel="noopener noreferrer">Dr. F. O. Durodola</a>, an Independent Researcher at <a href="https://mlcollective.org/" target="_blank" rel="noopener noreferrer">ML Collective</a>, and an AI/ML Engineer at Optimus AI Labs.
           </p>
 
           <p>
-            My research lies at the intersection of Artificial Intelligence and Robotics. I am particularly interested in robotics, automation, robot perception, navigation, and intelligent decision-making. I want to explore how AI can enable robots to understand their environment, make reliable decisions, and perform tasks autonomously. I am also interested in areas such as computer vision, deep learning, reinforcement learning, and multimodal AI, especially where they can contribute to more capable and reliable robotic systems.
+            My research lies at the intersection of Artificial Intelligence and Robotics. I work on robust perception for robots, helping them see reliably when objects are partly hidden, using cameras instead of expensive sensors, and on efficient AI that runs on resource-constrained hardware. I am especially interested in perception systems that work in low-resource settings, and in how they can support reliable robot navigation and decision-making.
           </p>
         </div>
         <div className="hero-image">

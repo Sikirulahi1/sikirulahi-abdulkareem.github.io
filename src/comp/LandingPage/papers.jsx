@@ -3,11 +3,28 @@ import { PapersSection } from "../../assets/styles";
 const papers = [
   {
     id: 1,
-    title: "Implementation of a Real-Time Maize Leaf Disease Detection System Using Raspberry Pi 5 and YOLOv8",
-    authors: "S. Owoeye, F. Durodola, C. Evwidonor, S. Abdulkareem, E. Popoola, & I. Akinode",
-    venue: "Tehnicki glasnik / Technical Journal, Vol. 20, No. 3, Sep 2026 (Accepted for Publication)",
+    title: "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
+    authors: "C. P. Onyenweaku, T. Adele, S. O. Abdulkareem, & O. H. Eje",
+    venue: "GlobalSouthAI Workshop @ NeurIPS 2026",
     year: "2026",
-    status: "Indexed in Web of Science (ESCI), Scopus, ERIH PLUS. JIF(2023) = 0.7 (Q3)",
+    links: [
+      {
+        text: "arXiv",
+        url: "https://arxiv.org/abs/2611.06899"
+      },
+      {
+        text: "NeurIPS",
+        url: "https://neurips.cc/virtual/2026/loc/sydney/162752"
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: "Implementation of a Real-Time Maize Leaf Disease Detection System Using Raspberry Pi 5 and YOLOv8",
+    authors: "S. Owoeye, F. Durodola, C. Evwidonor, S. O. Abdulkareem, E. Popoola, & I. Akinode",
+    venue: "Tehnički glasnik, Vol. 20, No. 3, pp. 432–438, Sep 2026",
+    year: "2026",
+    status: "Indexed in Web of Science (ESCI), Scopus, ERIH PLUS",
     links: [
       {
         text: "DOI",
@@ -16,7 +33,7 @@ const papers = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "Integrating Attention Modules with YOLOv8 for Enhanced Crack Detection and Segmentation",
     authors: "S. Owoeye, F. Durodola, S. O. Abdulkareem, & O. Omotainse",
     venue: "Kurdistan Journal of Applied Research (KJAR), Vol. 11, No. 1, pp. 121–142, Jun 2026",
@@ -29,14 +46,14 @@ const papers = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "Prediction of Car Prices in Nigeria Using Machine Learning Models",
     authors: "S. O. Owoeye, F. O. Durodola, S. O. Abdulkareem, K. M. Makinde, & O. E. Folaranmi",
-    venue: "Journal of Engineering Research (JER), Vol. 30, No. 3, pp. 115–131, Sep 2025",
+    venue: "Journal of Engineering Research (JER), Vol. 30, No. 3, pp. 115–131, 2025",
     year: "2025"
   },
   {
-    id: 4,
+    id: 5,
     title: "Multi-Lingual Contextual Audio Transcription and Translation to Selected Native Languages",
     authors: "O. O. Nuga, K. A. Amusa, A. J. Olanipekun, S. Matthew, S. B. Owusu, J. O. Salako, P. O. Onabanjo, A. O. Lawal, & S. O. Abdulkareem",
     venue: "2nd Asia Pacific Conference on Innovation in Technology (APCIT), Mysore, India, pp. 1–6, 2025",
@@ -44,7 +61,7 @@ const papers = [
     status: "Indexed in IEEE Xplore",
     links: [
       {
-        text: "IEEE Xplore / DOI",
+        text: "DOI",
         url: "https://doi.org/10.1109/APCIT65661.2025.11411245"
       }
     ]
@@ -54,7 +71,7 @@ const papers = [
 const Papers = () => {
   const renderAuthorsWithBoldName = (authors) => {
     const targetNames = ["S. O. Abdulkareem", "S. Abdulkareem"];
-    const regex = new RegExp(`(${targetNames.map((n) => n.replace(/\\./g, "\\\\.")).join("|")})`, "g");
+    const regex = new RegExp(`(${targetNames.map((n) => n.replace(/\./g, "\\.")).join("|")})`, "g");
     const parts = authors.split(regex);
 
     return parts.map((part, i) =>
@@ -76,10 +93,10 @@ const Papers = () => {
             {paper.links && paper.links.length > 0 && (
               <div className="paper-links">
                 {paper.links.map((link, index) => (
-                  <a 
+                  <a
                     key={index}
-                    href={link.url} 
-                    target="_blank" 
+                    href={link.url}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="paper-link"
                   >
